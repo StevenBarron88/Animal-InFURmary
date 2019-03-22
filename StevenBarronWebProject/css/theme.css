@@ -1,0 +1,32 @@
+body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+    background-color: #18BC9C
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 10px 0;
+}
+
+.theme-showcase .navbar .container {
+  width: auto;
+    color: #2C3E50;
+}
+ h1{text-align: center;color: white}
+        img{margin-left: 20px}
+        iframe{margin-left: 200px}
+        p{color: white; text-align: center}
+
+.navbar-header{
+            background-color: #2C3E50
+ /* change the background color */
+.navbar-custom {
+    background-color:#2C3E50}
+    
+    .map{}

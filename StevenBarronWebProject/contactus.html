@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>My Yoga - Contact Us</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/theme.css" rel="stylesheet">
+	
+	<!-- Custom styles for form -->
+    <link href="query-form.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body role="document">
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="Home.html"><img src="images/profile.png.PNG" width="50px" height="50px"></a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="AnimalCareTips.html">Animal Care Tips</a></li>
+            <li><a href="Appointment.html">Book an Appointment</a></li>
+              <li class="active"><a href="contactus.html">Contact Us</a></li>
+              <a class="navbar-brand" href="https://www.facebook.com/"><img src="images/facebook.jpg" width="30px" height="30px">Facebook</a>
+              <a class="navbar-brand" href="https://www.instagram.com/?hl=en"><img src="images/instagram.jpg" width="30px" height="30px">Instagram</a>
+              <p style="color: black">.</p>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+		
+		
+    <div class="container theme-showcase" role="main">
+
+	  <div class="page-header">
+          <br>
+           
+        <h1>Contact Us</h1>
+          <p>If you want to ask one of our experts a question, check in on your pet, or just can't find what you are looking for, fill out the form below and we'll get back to you as soon as possible</p>
+      </div>
+
+	   <div class="row">
+        <div class="col-md-6">
+
+	  <form class="query-form" action="formSubmitted.php" name="queryForm" onsubmit="return(formValidate());" novalidate>
+        <label for="inputFirstName" class="sr-only">First Name</label>
+        <input type="text" name="inputFirstName" class="form-control" placeholder="First Name" required autofocus>
+        <label for="inputLastName" class="sr-only">Last Name</label>
+        <input type="text" id="inputLastName" name="inputLastName" class="form-control" placeholder="Last Name" required>
+        <label for="inputEmail" class="sr-only">Email address</label>
+        <input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Email address" required>
+        <label for="inputQuery" class="sr-only">Query</label>
+        <input type="text" id="inputQuery" name="inputQuery" class="form-control" placeholder="Enter your query here" required>
+        <div class="checkbox">
+          <label>
+            <input type="checkbox" name="newsletter" value="newsletter-yes"> Check this if you wish
+			to receive our newsletter
+          </label>
+        </div>
+		<button type="submit" style="color: white; background-color: navy; border-color: navy;width: 550px;">Submit</button>
+          <br>
+          <br>
+          <button type="Reset" style="color: white; background-color: navy; border-color: navy;width: 550px;">Clear</button>
+      </form>
+
+	 </div>
+	</div>
+	  
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/formVal.js"></script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
